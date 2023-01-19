@@ -7,7 +7,7 @@ connectToDatabase();
 
 const io = new Server(server, {
     cors: {
-        origin: ["http://localhost:3000", "https://google-docs-clone-client-delta.vercel.app/", "https://google-docs-clone-client-delta.vercel.app/"],
+        origin: ["https://google-docs-clone-client-delta.vercel.app/"],
     }
 });
 
