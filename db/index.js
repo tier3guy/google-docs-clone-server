@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Document = require('./models/documentsModal');
+const Document = require('./models/documentsModel');
 
 const MONDO_DB_URL = 'mongodb+srv://Avinash:avinash-google-docs-clone@cluster0.dagnh5r.mongodb.net/?retryWrites=true&w=majority';
 
